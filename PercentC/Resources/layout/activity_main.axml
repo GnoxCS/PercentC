@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:gravity="center">
+    <TextView
+        android:text="الرجاء كتابة عدد الطلاب الكلي الذين شاركوا في الإمتحان, وعدد الطلاب الذين نجحوا فقط, ليتم إستخراج نسبة النجاح ."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="94.5dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView1"
+        android:layout_marginBottom="0.0dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:text="عدد المشاركين"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/involvedView"
+        android:textSize="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:id="@+id/involvedText"/>
+    <TextView
+        android:text="عدد الناجحين"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/successedView"
+        android:textSize="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:id="@+id/successedText" />
+    <Button
+        android:text="احسب"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCalc"
+        android:background="#ff075d91"
+        android:textColor="#fff7f2f2"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+</LinearLayout>
